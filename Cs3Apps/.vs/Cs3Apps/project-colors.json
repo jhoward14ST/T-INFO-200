@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2b8cfc63-d7c7-4645-9bd8-deeaab5af141": {
+      "ProjectGuid": "2b8cfc63-d7c7-4645-9bd8-deeaab5af141",
+      "DisplayName": "Elimination",
+      "ColorIndex": 0
+    },
+    "24c96589-2d8c-4fd0-ac8e-7edb772eec6f": {
+      "ProjectGuid": "24c96589-2d8c-4fd0-ac8e-7edb772eec6f",
+      "DisplayName": "Airline",
+      "ColorIndex": 1
+    },
+    "52a28237-533d-4d82-b683-d1fe5e8b5ba1": {
+      "ProjectGuid": "52a28237-533d-4d82-b683-d1fe5e8b5ba1",
+      "DisplayName": "TicTacToe",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

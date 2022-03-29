@@ -1,0 +1,12 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\Cs2Apps> .\EmployeeDB\bin\debug\EmployeeDB.exe
+The yearly Salary for Sean Cody is $49200
+The yearly Salary for Gus Kenworthy is $60000
+The yearly Salary for Rob Kearney is $0
+The yearly Salary for Sean Cody after a 10% raise is $54120.0
+The yearly Salary for Gus Kenworthy after a 10% raise is $66000.0
+The yearly Salary for Rob Kearney after a 10% raise is $0.0
+PS C:\Users\Scand\source\repos\Cs2Apps>

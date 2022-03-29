@@ -1,0 +1,32 @@
+StudentDB.Undergrad
+Shawn
+Carter
+3.9
+scarter@uw.edu
+2/14/2022 3:01:01 PM
+Freshman
+Record Production
+StudentDB.GradStudent
+Nicki
+Minaj
+3.7
+nminaj@uw.edu
+2/14/2022 3:01:01 PM
+5000.00
+Dr. Dwayne Carter Jr
+StudentDB.Undergrad
+Johnny
+Cash
+3.5
+jcash@uw.edu
+2/14/2022 3:01:01 PM
+Senior
+Singing and Songwriting
+StudentDB.GradStudent
+Calvin
+Broadus Jr
+3.8
+cbroadus@uw.edu
+2/14/2022 3:01:01 PM
+4204.20
+Dr. Dre

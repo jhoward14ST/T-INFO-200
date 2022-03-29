@@ -1,0 +1,1029 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\DbApp> .\StudentDB\bin\Debug\StudentDB.exe
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: p
+
+***** PRINTING ALL RECORDS *****
+
+***** STUDENT RECORD *****
+
+First name: Shawn
+ Last name: Carter
+ Grade Avg: 3.9
+     Email: scarter@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Freshman
+     Major: Record Production
+
+***** STUDENT RECORD *****
+
+First name: Nicki
+ Last name: Minaj
+ Grade Avg: 3.7
+     Email: nminaj@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 5000.00
+   Advisor: Dr. Dwayne Carter Jr
+
+***** STUDENT RECORD *****
+
+First name: Johnny
+ Last name: Cash
+ Grade Avg: 3.5
+     Email: jcash@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Senior
+     Major: Singing and Songwriting
+
+***** STUDENT RECORD *****
+
+First name: Calvin
+ Last name: Broadus Jr
+ Grade Avg: 3.8
+     Email: cbroadus@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 4204.20
+   Advisor: Dr. Dre
+
+***** DONE PRINTING ALL RECORDS *****
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: c
+ENTER email address (primary key) to search for: tcreatedelete@uw.edu
+
+tcreatedelete@uw.edu NOT FOUND.
+ENTER the first name: ThisTests
+ENTER the last name: CreateDelete
+ENTER the grade pt. average: 3.0
+[U]ndergrad student or [G]rad Student: u
+[1]Freshman [2]Sophmore [3]Junior [4]Senior
+ENTER the year/rank in school: 3
+ENTER the degree major: Underwater Basket Weaving
+
+Adding new undergrad student to database:
+First name: ThisTests
+ Last name: CreateDelete
+ Grade Avg: 3.0
+     Email: tcreatedelete@uw.edu
+  Enrolled: 3/5/2022 12:18:59 PM
+      Year: Junior
+     Major: Underwater Basket Weaving
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: c
+ENTER email address (primary key) to search for: tmodifyu@uw.edu
+
+tmodifyu@uw.edu NOT FOUND.
+ENTER the first name: ThisTests
+ENTER the last name: ModifyUndergrad
+ENTER the grade pt. average: 3.1
+[U]ndergrad student or [G]rad Student: u
+[1]Freshman [2]Sophmore [3]Junior [4]Senior
+ENTER the year/rank in school: 1
+ENTER the degree major: Astrology
+
+Adding new undergrad student to database:
+First name: ThisTests
+ Last name: ModifyUndergrad
+ Grade Avg: 3.1
+     Email: tmodifyu@uw.edu
+  Enrolled: 3/5/2022 12:20:12 PM
+      Year: Freshman
+     Major: Astrology
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: c
+ENTER email address (primary key) to search for: tmodifyg@uw.edu
+
+tmodifyg@uw.edu NOT FOUND.
+ENTER the first name: ThisTests
+ENTER the last name: ModifyGrad
+ENTER the grade pt. average: 3.2
+[U]ndergrad student or [G]rad Student: g
+ENTER tuition reimbursement amount: 6000
+ENTER the faculty advisor: Dr. BadAdvisor
+
+Adding new graduate student to database:
+First name: ThisTests
+ Last name: ModifyGrad
+ Grade Avg: 3.2
+     Email: tmodifyg@uw.edu
+  Enrolled: 3/5/2022 12:20:59 PM
+    Credit: 6000
+   Advisor: Dr. BadAdvisor
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: p
+
+***** PRINTING ALL RECORDS *****
+
+***** STUDENT RECORD *****
+
+First name: Shawn
+ Last name: Carter
+ Grade Avg: 3.9
+     Email: scarter@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Freshman
+     Major: Record Production
+
+***** STUDENT RECORD *****
+
+First name: Nicki
+ Last name: Minaj
+ Grade Avg: 3.7
+     Email: nminaj@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 5000.00
+   Advisor: Dr. Dwayne Carter Jr
+
+***** STUDENT RECORD *****
+
+First name: Johnny
+ Last name: Cash
+ Grade Avg: 3.5
+     Email: jcash@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Senior
+     Major: Singing and Songwriting
+
+***** STUDENT RECORD *****
+
+First name: Calvin
+ Last name: Broadus Jr
+ Grade Avg: 3.8
+     Email: cbroadus@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 4204.20
+   Advisor: Dr. Dre
+
+***** STUDENT RECORD *****
+
+First name: ThisTests
+ Last name: CreateDelete
+ Grade Avg: 3.0
+     Email: tcreatedelete@uw.edu
+  Enrolled: 3/5/2022 12:18:59 PM
+      Year: Junior
+     Major: Underwater Basket Weaving
+
+***** STUDENT RECORD *****
+
+First name: ThisTests
+ Last name: ModifyUndergrad
+ Grade Avg: 3.1
+     Email: tmodifyu@uw.edu
+  Enrolled: 3/5/2022 12:20:12 PM
+      Year: Freshman
+     Major: Astrology
+
+***** STUDENT RECORD *****
+
+First name: ThisTests
+ Last name: ModifyGrad
+ Grade Avg: 3.2
+     Email: tmodifyg@uw.edu
+  Enrolled: 3/5/2022 12:20:59 PM
+    Credit: 6000
+   Advisor: Dr. BadAdvisor
+
+***** DONE PRINTING ALL RECORDS *****
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: d
+ENTER email address (primary key) to search for: tcreatedelete@uw.edu
+
+FOUND email address: tcreatedelete@uw.edu
+***** RECORD FOR tcreatedelete@uw.edu DELETED.
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: p
+
+***** PRINTING ALL RECORDS *****
+
+***** STUDENT RECORD *****
+
+First name: Shawn
+ Last name: Carter
+ Grade Avg: 3.9
+     Email: scarter@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Freshman
+     Major: Record Production
+
+***** STUDENT RECORD *****
+
+First name: Nicki
+ Last name: Minaj
+ Grade Avg: 3.7
+     Email: nminaj@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 5000.00
+   Advisor: Dr. Dwayne Carter Jr
+
+***** STUDENT RECORD *****
+
+First name: Johnny
+ Last name: Cash
+ Grade Avg: 3.5
+     Email: jcash@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Senior
+     Major: Singing and Songwriting
+
+***** STUDENT RECORD *****
+
+First name: Calvin
+ Last name: Broadus Jr
+ Grade Avg: 3.8
+     Email: cbroadus@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 4204.20
+   Advisor: Dr. Dre
+
+***** STUDENT RECORD *****
+
+First name: ThisTests
+ Last name: ModifyUndergrad
+ Grade Avg: 3.1
+     Email: tmodifyu@uw.edu
+  Enrolled: 3/5/2022 12:20:12 PM
+      Year: Freshman
+     Major: Astrology
+
+***** STUDENT RECORD *****
+
+First name: ThisTests
+ Last name: ModifyGrad
+ Grade Avg: 3.2
+     Email: tmodifyg@uw.edu
+  Enrolled: 3/5/2022 12:20:59 PM
+    Credit: 6000
+   Advisor: Dr. BadAdvisor
+
+***** DONE PRINTING ALL RECORDS *****
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyu@uw.edu
+
+***********************************
+*** Undergraduate Record Editor ***
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify rank
+[6] Modify major
+Make selection by entering the corresponding number
+******* User Selection: 1
+ENTER the NEW first name: ModifiedFirst
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyu@uw.edu
+
+***********************************
+*** Undergraduate Record Editor ***
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify rank
+[6] Modify major
+Make selection by entering the corresponding number
+******* User Selection: 2
+ENTER the NEW last name: ModifiedLast
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: tError: Sorry that wasn't a choice. Select again.
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyu@uw.edu
+
+***********************************
+*** Undergraduate Record Editor ***
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify rank
+[6] Modify major
+Make selection by entering the corresponding number
+******* User Selection: 3
+ENTER the NEW grade pt. average: 3.8
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyu@uw.edu
+
+***********************************
+*** Undergraduate Record Editor ***
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify rank
+[6] Modify major
+Make selection by entering the corresponding number
+******* User Selection: 4
+ENTER the NEW email: modifiedundergrademail@uw.edu
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: modifiedundergrademail@uw.edu
+
+***********************************
+*** Undergraduate Record Editor ***
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify rank
+[6] Modify major
+Make selection by entering the corresponding number
+******* User Selection: 5
+[1]Freshman [2]Sophmore [3]Junior [4]Senior
+ENTER the NEW year/rank in school4
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: modifiedundergrademail@uw.edu
+
+***********************************
+*** Undergraduate Record Editor ***
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify rank
+[6] Modify major
+Make selection by entering the corresponding number
+******* User Selection: 6
+ENTER the NEW degree majorModified major
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: p
+
+***** PRINTING ALL RECORDS *****
+
+***** STUDENT RECORD *****
+
+First name: Shawn
+ Last name: Carter
+ Grade Avg: 3.9
+     Email: scarter@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Freshman
+     Major: Record Production
+
+***** STUDENT RECORD *****
+
+First name: Nicki
+ Last name: Minaj
+ Grade Avg: 3.7
+     Email: nminaj@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 5000.00
+   Advisor: Dr. Dwayne Carter Jr
+
+***** STUDENT RECORD *****
+
+First name: Johnny
+ Last name: Cash
+ Grade Avg: 3.5
+     Email: jcash@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Senior
+     Major: Singing and Songwriting
+
+***** STUDENT RECORD *****
+
+First name: Calvin
+ Last name: Broadus Jr
+ Grade Avg: 3.8
+     Email: cbroadus@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 4204.20
+   Advisor: Dr. Dre
+
+***** STUDENT RECORD *****
+
+First name: ModifiedFirst
+ Last name: ModifiedLast
+ Grade Avg: 3.8
+     Email: modifiedundergrademail@uw.edu
+  Enrolled: 3/5/2022 12:20:12 PM
+      Year: Senior
+     Major: Modified major
+
+***** STUDENT RECORD *****
+
+First name: ThisTests
+ Last name: ModifyGrad
+ Grade Avg: 3.2
+     Email: tmodifyg@uw.edu
+  Enrolled: 3/5/2022 12:20:59 PM
+    Credit: 6000
+   Advisor: Dr. BadAdvisor
+
+***** DONE PRINTING ALL RECORDS *****
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyg@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: 1
+ENTER the NEW first name: ModifiedFirst
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: tError: Sorry that wasn't a choice. Select again.
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyg@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: 2
+ENTER the NEW last name: ModifiedLast
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyg@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: 3
+ENTER the NEW grade pt. average: 3.9
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyg@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: m
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: oError: Sorry that wasn't a choice. Select again.
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: d
+ENTER email address (primary key) to search for:
+
+ NOT FOUND.
+***** RECORD NOT FOUND.
+ Can't modify record for user:.
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: tmodifyg@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: 4
+ENTER the NEW email: modifiedgrademail@uw.edu
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: modifiedgrademail@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: 5
+ENTER the NEW tuition reimbursement amount: 6500
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: m
+ENTER email address (primary key) to search for: modifiedgrademail@uw.edu
+
+***********************************
+***** Graduate Record Editor ******
+***********************************
+[1] Modify first name
+[2] Modify last name
+[3] Modify GPA
+[4] Modify email
+[5] Modify tuition credit
+[6] Modify advisor
+Make selection by entering the corresponding number
+******* User Selection: 6
+ENTER the NEW faculty advisor: Dr. Niel deGrasse Tyson
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: p
+
+***** PRINTING ALL RECORDS *****
+
+***** STUDENT RECORD *****
+
+First name: Shawn
+ Last name: Carter
+ Grade Avg: 3.9
+     Email: scarter@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Freshman
+     Major: Record Production
+
+***** STUDENT RECORD *****
+
+First name: Nicki
+ Last name: Minaj
+ Grade Avg: 3.7
+     Email: nminaj@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 5000.00
+   Advisor: Dr. Dwayne Carter Jr
+
+***** STUDENT RECORD *****
+
+First name: Johnny
+ Last name: Cash
+ Grade Avg: 3.5
+     Email: jcash@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+      Year: Senior
+     Major: Singing and Songwriting
+
+***** STUDENT RECORD *****
+
+First name: Calvin
+ Last name: Broadus Jr
+ Grade Avg: 3.8
+     Email: cbroadus@uw.edu
+  Enrolled: 2/14/2022 3:01:01 PM
+    Credit: 4204.20
+   Advisor: Dr. Dre
+
+***** STUDENT RECORD *****
+
+First name: ModifiedFirst
+ Last name: ModifiedLast
+ Grade Avg: 3.8
+     Email: modifiedundergrademail@uw.edu
+  Enrolled: 3/5/2022 12:20:12 PM
+      Year: Senior
+     Major: Modified major
+
+***** STUDENT RECORD *****
+
+First name: ModifiedFirst
+ Last name: ModifiedLast
+ Grade Avg: 3.9
+     Email: modifiedgrademail@uw.edu
+  Enrolled: 3/5/2022 12:20:59 PM
+    Credit: 6500
+   Advisor: Dr. Niel deGrasse Tyson
+
+***** DONE PRINTING ALL RECORDS *****
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: s
+***** PRINTING ALL RECORDS TO OUTPUT FILE *****
+
+StudentDB.Undergrad
+Shawn
+Carter
+3.9
+scarter@uw.edu
+2/14/2022 3:01:01 PM
+Freshman
+Record Production
+StudentDB.GradStudent
+Nicki
+Minaj
+3.7
+nminaj@uw.edu
+2/14/2022 3:01:01 PM
+5000.00
+Dr. Dwayne Carter Jr
+StudentDB.Undergrad
+Johnny
+Cash
+3.5
+jcash@uw.edu
+2/14/2022 3:01:01 PM
+Senior
+Singing and Songwriting
+StudentDB.GradStudent
+Calvin
+Broadus Jr
+3.8
+cbroadus@uw.edu
+2/14/2022 3:01:01 PM
+4204.20
+Dr. Dre
+StudentDB.Undergrad
+ModifiedFirst
+ModifiedLast
+3.8
+modifiedundergrademail@uw.edu
+3/5/2022 12:20:12 PM
+Senior
+Modified major
+StudentDB.GradStudent
+ModifiedFirst
+ModifiedLast
+3.9
+modifiedgrademail@uw.edu
+3/5/2022 12:20:59 PM
+6500
+Dr. Niel deGrasse Tyson
+
+***** DONE PRINTING ALL RECORDS TO OUTPUT FILE *****
+
+***********************************
+***** Student DB Main Menu ********
+***********************************
+[C]reate a student record
+[D]elete a student record
+[F]ind   a student record
+[P]rint  all records
+[M]odify a student record
+[S]ave   all records without exit
+[E]xit   the database (with save)
+Make selection by entering the first letter
+******* User Selection: e
+***** PRINTING ALL RECORDS TO OUTPUT FILE *****
+
+StudentDB.Undergrad
+Shawn
+Carter
+3.9
+scarter@uw.edu
+2/14/2022 3:01:01 PM
+Freshman
+Record Production
+StudentDB.GradStudent
+Nicki
+Minaj
+3.7
+nminaj@uw.edu
+2/14/2022 3:01:01 PM
+5000.00
+Dr. Dwayne Carter Jr
+StudentDB.Undergrad
+Johnny
+Cash
+3.5
+jcash@uw.edu
+2/14/2022 3:01:01 PM
+Senior
+Singing and Songwriting
+StudentDB.GradStudent
+Calvin
+Broadus Jr
+3.8
+cbroadus@uw.edu
+2/14/2022 3:01:01 PM
+4204.20
+Dr. Dre
+StudentDB.Undergrad
+ModifiedFirst
+ModifiedLast
+3.8
+modifiedundergrademail@uw.edu
+3/5/2022 12:20:12 PM
+Senior
+Modified major
+StudentDB.GradStudent
+ModifiedFirst
+ModifiedLast
+3.9
+modifiedgrademail@uw.edu
+3/5/2022 12:20:59 PM
+6500
+Dr. Niel deGrasse Tyson
+
+***** DONE PRINTING ALL RECORDS TO OUTPUT FILE *****

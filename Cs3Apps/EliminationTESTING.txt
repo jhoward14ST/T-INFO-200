@@ -1,0 +1,114 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+---------------------------------------------------------------------
+   Welcome to the Elimination app. This app accepts five integer
+   inputs between 10 and 100 inclusive and prints out only those
+   inputs which are not duplicates.
+   For example, entering 15 20 25 30 35 will result in an output of:
+         UNIQUE VALUES: 15 , 20 , 25 , 30 , 35
+   Entering 20 30 30 30 30 will result in an output of:
+         UNIQUE VALUES: 20 , 30
+---------------------------------------------------------------------
+
+Enter the first number: 5
+Invalid input. Please try again: 105
+Invalid input. Please try again: h
+Invalid input. Please try again:
+Invalid input. Please try again: 10
+UNIQUE values: 10
+Enter the second number: 20
+UNIQUE values: 10 , 20
+Enter the third number: 30
+UNIQUE values: 10 , 20 , 30
+Enter the fourth number: 40
+UNIQUE values: 10 , 20 , 30 , 40
+Enter the fifth number: 50
+UNIQUE values: 10 , 20 , 30 , 40 , 50
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+---------------------------------------------------------------------
+   Welcome to the Elimination app. This app accepts five integer
+   inputs between 10 and 100 inclusive and prints out only those
+   inputs which are not duplicates.
+   For example, entering 15 20 25 30 35 will result in an output of:
+         UNIQUE VALUES: 15 , 20 , 25 , 30 , 35
+   Entering 20 30 30 30 30 will result in an output of:
+         UNIQUE VALUES: 20 , 30
+---------------------------------------------------------------------
+
+Enter the first number: 20
+UNIQUE values: 20
+Enter the second number: 20
+UNIQUE values: 20
+Enter the third number: 30
+UNIQUE values: 20 , 30
+Enter the fourth number: 40
+UNIQUE values: 20 , 30 , 40
+Enter the fifth number: 50
+UNIQUE values: 20 , 30 , 40 , 50
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+---------------------------------------------------------------------
+   Welcome to the Elimination app. This app accepts five integer
+   inputs between 10 and 100 inclusive and prints out only those
+   inputs which are not duplicates.
+   For example, entering 15 20 25 30 35 will result in an output of:
+         UNIQUE VALUES: 15 , 20 , 25 , 30 , 35
+   Entering 20 30 30 30 30 will result in an output of:
+         UNIQUE VALUES: 20 , 30
+---------------------------------------------------------------------
+
+Enter the first number: 20
+UNIQUE values: 20
+Enter the second number: 20
+UNIQUE values: 20
+Enter the third number: 20
+UNIQUE values: 20
+Enter the fourth number: 30
+UNIQUE values: 20 , 30
+Enter the fifth number: 40
+UNIQUE values: 20 , 30 , 40
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+---------------------------------------------------------------------
+   Welcome to the Elimination app. This app accepts five integer
+   inputs between 10 and 100 inclusive and prints out only those
+   inputs which are not duplicates.
+   For example, entering 15 20 25 30 35 will result in an output of:
+         UNIQUE VALUES: 15 , 20 , 25 , 30 , 35
+   Entering 20 30 30 30 30 will result in an output of:
+         UNIQUE VALUES: 20 , 30
+---------------------------------------------------------------------
+
+Enter the first number: 20
+UNIQUE values: 20
+Enter the second number: 20
+UNIQUE values: 20
+Enter the third number: 20
+UNIQUE values: 20
+Enter the fourth number: 20
+UNIQUE values: 20
+Enter the fifth number: 30
+UNIQUE values: 20 , 30
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Elimination\bin\Debug\Elimination.exe
+---------------------------------------------------------------------
+   Welcome to the Elimination app. This app accepts five integer
+   inputs between 10 and 100 inclusive and prints out only those
+   inputs which are not duplicates.
+   For example, entering 15 20 25 30 35 will result in an output of:
+         UNIQUE VALUES: 15 , 20 , 25 , 30 , 35
+   Entering 20 30 30 30 30 will result in an output of:
+         UNIQUE VALUES: 20 , 30
+---------------------------------------------------------------------
+
+Enter the first number: 20
+UNIQUE values: 20
+Enter the second number: 20
+UNIQUE values: 20
+Enter the third number: 20
+UNIQUE values: 20
+Enter the fourth number: 20
+UNIQUE values: 20
+Enter the fifth number: 20
+UNIQUE values: 20
+PS C:\Users\Scand\source\repos\Cs3Apps>

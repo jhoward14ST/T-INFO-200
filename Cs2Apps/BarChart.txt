@@ -1,0 +1,51 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\Cs2Apps> .\BarChart\bin\debug\BarChart.exe
+----------------------------------------------------------------
+   Welcome to the Bar Chart app. This accepts three integer
+   inputs between 0 and 30 and prints out a corresponding number
+   of adjacent asterisks for each number input.For example,
+          entering 15 20 25 will result in an output of:
+             NUMBER 1(15): ***************
+             NUMBER 2(20): ********************
+             NUMBER 3(25): *************************
+----------------------------------------------------------------
+--------------------- ENTER C TO BEGIN -------------------------
+c
+Please enter three whole numbers between 0 and 30.
+Enter the first number:
+3
+Enter the second number:
+5
+Enter the third number:
+8
+Your numbers:
+NUMBER (3): ***
+NUMBER (5): *****
+NUMBER (8): ********
+PS C:\Users\Scand\source\repos\Cs2Apps> .\BarChart\bin\debug\BarChart.exe                                              Z
+----------------------------------------------------------------
+   Welcome to the Bar Chart app. This accepts three integer
+   inputs between 0 and 30 and prints out a corresponding number
+   of adjacent asterisks for each number input.For example,
+          entering 15 20 25 will result in an output of:
+             NUMBER 1(15): ***************
+             NUMBER 2(20): ********************
+             NUMBER 3(25): *************************
+----------------------------------------------------------------
+--------------------- ENTER C TO BEGIN -------------------------
+c
+Please enter three whole numbers between 0 and 30.
+Enter the first number:
+13
+Enter the second number:
+21
+Enter the third number:
+0
+Your numbers:
+NUMBER (13): *************
+NUMBER (21): *********************
+NUMBER (0):
+PS C:\Users\Scand\source\repos\Cs2Apps>

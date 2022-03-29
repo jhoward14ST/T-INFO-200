@@ -1,0 +1,8 @@
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\bin\Debug\AITeacher.exe.config
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\bin\Debug\AITeacher.exe
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\bin\Debug\AITeacher.pdb
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\obj\Debug\AITeacher.csproj.SuggestedBindingRedirects.cache
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\obj\Debug\AITeacher.csproj.CoreCompileInputs.cache
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\obj\Debug\AITeacher.exe
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\obj\Debug\AITeacher.pdb
+C:\Users\Scand\source\repos\Cs2Apps\AITeacher\obj\Debug\AITeacher.csproj.AssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\Scand\source\repos\MathCalc\bin\Debug\MathCalc.exe.config
+C:\Users\Scand\source\repos\MathCalc\bin\Debug\MathCalc.exe
+C:\Users\Scand\source\repos\MathCalc\bin\Debug\MathCalc.pdb
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.csproj.SuggestedBindingRedirects.cache
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.Form1.resources
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.Properties.Resources.resources
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.csproj.GenerateResource.cache
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.csproj.CoreCompileInputs.cache
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.exe
+C:\Users\Scand\source\repos\MathCalc\obj\Debug\MathCalc.pdb

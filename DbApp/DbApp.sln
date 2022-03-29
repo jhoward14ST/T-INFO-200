@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentDB", "StudentDB\StudentDB.csproj", "{93CD547D-632C-4D8E-A157-B02F7C128E33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93CD547D-632C-4D8E-A157-B02F7C128E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93CD547D-632C-4D8E-A157-B02F7C128E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93CD547D-632C-4D8E-A157-B02F7C128E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93CD547D-632C-4D8E-A157-B02F7C128E33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0247093-9C0D-4AF0-8CE4-165F176ADC4F}
+	EndGlobalSection
+EndGlobal

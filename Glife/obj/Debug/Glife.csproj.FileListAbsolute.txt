@@ -1,0 +1,7 @@
+C:\Users\Scand\source\repos\Glife\bin\Debug\Glife.exe.config
+C:\Users\Scand\source\repos\Glife\bin\Debug\Glife.exe
+C:\Users\Scand\source\repos\Glife\bin\Debug\Glife.pdb
+C:\Users\Scand\source\repos\Glife\obj\Debug\Glife.csproj.SuggestedBindingRedirects.cache
+C:\Users\Scand\source\repos\Glife\obj\Debug\Glife.csproj.CoreCompileInputs.cache
+C:\Users\Scand\source\repos\Glife\obj\Debug\Glife.exe
+C:\Users\Scand\source\repos\Glife\obj\Debug\Glife.pdb

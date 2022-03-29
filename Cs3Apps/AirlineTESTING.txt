@@ -1,0 +1,272 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Airline\bin\debug\Airline.exe
+---------------------------------------------------------------------
+  Welcome to the Airline app. This app allows you to book seats
+  on a flight for customers. There are 5 seats available for economy
+  and 5 available for first class. The app will continually prompt
+  you until one of three cases is true:
+                         ********
+  CASE 1: All seats are full.
+  CASE 2: All economy seats are full and there are no customers
+  willing to switch to first class
+  CASE 3: All first class seats are full and there are no customers
+  willing to switch to economy
+                         ********
+  When one of these cases is true, the app will display the next
+  available flight to the destination.
+---------------------------------------------------------------------
+
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: O  O  O  O  O  0/5 seats filled
+    Economy: X  O  O  O  O  1/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: O  O  O  O  O  0/5 seats filled
+    Economy: X  X  O  O  O  2/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: O  O  O  O  O  0/5 seats filled
+    Economy: X  X  X  O  O  3/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: O  O  O  O  O  0/5 seats filled
+    Economy: X  X  X  X  O  4/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: O  O  O  O  O  0/5 seats filled
+    Economy: X  X  X  X  X  5/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+----------------------------------------------------------
+ The Economy section is full. Is First Class acceptable?
+              Enter [1] for YES or [2] for NO
+----------------------------------------------------------
+   Selection: 1
+
+****************** SEATING AVAILABILITY ******************
+First Class: X  O  O  O  O  1/5 seats filled
+    Economy: X  X  X  X  X  5/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+----------------------------------------------------------
+ The Economy section is full. Is First Class acceptable?
+              Enter [1] for YES or [2] for NO
+----------------------------------------------------------
+   Selection: 2
+----------------------------------------------------------
+         The next flight leaves in 3 hours.
+----------------------------------------------------------
+
+****************** SEATING AVAILABILITY ******************
+First Class: X  O  O  O  O  1/5 seats filled
+    Economy: X  X  X  X  X  5/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 6
+That was not a valid input. Please try again: 7
+That was not a valid input. Please try again: 8
+That was not a valid input. Please try again: h
+That was not a valid input. Please try again: k
+That was not a valid input. Please try again:
+That was not a valid input. Please try again: 2
+----------------------------------------------------------
+ The Economy section is full. Is First Class acceptable?
+              Enter [1] for YES or [2] for NO
+----------------------------------------------------------
+   Selection: 2
+----------------------------------------------------------
+         The next flight leaves in 3 hours.
+----------------------------------------------------------
+
+****************** SEATING AVAILABILITY ******************
+First Class: X  O  O  O  O  1/5 seats filled
+    Economy: X  X  X  X  X  5/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 4
+----------------------------------------------
+                 EXITED APPLICATION
+----------------------------------------------
+PS C:\Users\Scand\source\repos\Cs3Apps> .\Airline\bin\debug\Airline.exe
+---------------------------------------------------------------------
+  Welcome to the Airline app. This app allows you to book seats
+  on a flight for customers. There are 5 seats available for economy
+  and 5 available for first class. The app will continually prompt
+  you until one of three cases is true:
+                         ********
+  CASE 1: All seats are full.
+  CASE 2: All economy seats are full and there are no customers
+  willing to switch to first class
+  CASE 3: All first class seats are full and there are no customers
+  willing to switch to economy
+                         ********
+  When one of these cases is true, the app will display the next
+  available flight to the destination.
+---------------------------------------------------------------------
+
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+****************** SEATING AVAILABILITY ******************
+First Class: X  O  O  O  O  1/5 seats filled
+    Economy: O  O  O  O  O  0/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  O  O  O  2/5 seats filled
+    Economy: O  O  O  O  O  0/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  O  O  3/5 seats filled
+    Economy: O  O  O  O  O  0/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  O  4/5 seats filled
+    Economy: O  O  O  O  O  0/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: O  O  O  O  O  0/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+----------------------------------------------------------
+ The First Class section is full. Is Economy acceptable?
+              Enter [1] for YES or [2] for NO
+----------------------------------------------------------
+   Selection: 1
+
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: X  O  O  O  O  1/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 1
+----------------------------------------------------------
+ The First Class section is full. Is Economy acceptable?
+              Enter [1] for YES or [2] for NO
+----------------------------------------------------------
+   Selection: 2
+----------------------------------------------------------
+         The next flight leaves in 3 hours.
+----------------------------------------------------------
+
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: X  O  O  O  O  1/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 6
+That was not a valid input. Please try again: 7
+That was not a valid input. Please try again: 8
+That was not a valid input. Please try again: h
+That was not a valid input. Please try again: k
+That was not a valid input. Please try again: 2
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: X  X  O  O  O  2/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: X  X  X  O  O  3/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: X  X  X  X  O  4/5 seats filled
+**********************************************************
+----------------------------------------------------------
+   Please enter [1] for First Class or [2] for Economy.
+   Enter [4] to finish seating and exit the application.
+----------------------------------------------------------
+   Selection: 2
+****************** SEATING AVAILABILITY ******************
+First Class: X  X  X  X  X  5/5 seats filled
+    Economy: X  X  X  X  X  5/5 seats filled
+**********************************************************
+----------------------------------------------------------
+         All seats on this flight have been taken.
+           The next flight leaves in 3 hours.
+----------------------------------------------------------
+PS C:\Users\Scand\source\repos\Cs3Apps>

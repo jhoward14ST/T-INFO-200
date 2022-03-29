@@ -1,0 +1,155 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\Cs2Apps> .\GuessTheNumber\bin\debug\GuessTheNumber.exe
+---------------------------------------------------------------------
+ Welcome to the Guess the Number app. This program will generate
+ a random number between 0 and 1000.Your goal is to try and guess
+ what that number is !When you make an incorrect guess, the program
+ will display either 'Too high. Try again.' or 'Too low. Try again.'
+ and will prompt you to guess again. When you guess the number
+             correctly you can opt to play again!
+---------------------------------------------------------------------
+------------------------ ENTER C TO BEGIN ---------------------------
+c
+---------------------------------------------------------------------
+         A number has been generated. Make a guess!
+---------------------------------------------------------------------
+500
+Too high. Try again.
+Guess again:
+250
+Too high. Try again.
+Guess again:
+125
+Too low. Try again.
+Guess again:
+200
+Too high. Try again.
+Guess again:
+150
+Too high. Try again.
+Guess again:
+130
+Too low. Try again.
+Guess again:
+135
+Too low. Try again.
+Guess again:
+140
+Too low. Try again.
+Guess again:
+145
+Too low. Try again.
+Guess again:
+147
+Congratulations. You guessed the number!
+
+---------------------------------------------------------------------
+----------     ENTER P TO PLAY AGAIN OR X TO EXIT          ----------
+---------------------------------------------------------------------
+p
+---------------------------------------------------------------------
+         A number has been generated. Make a guess!
+---------------------------------------------------------------------
+500
+Too high. Try again.
+Guess again:
+250
+Too high. Try again.
+Guess again:
+125
+Too high. Try again.
+Guess again:
+75
+Too high. Try again.
+Guess again:
+35
+Too high. Try again.
+Guess again:
+15
+Too high. Try again.
+Guess again:
+10
+Too low. Try again.
+Guess again:
+12
+Too low. Try again.
+Guess again:
+13
+Too low. Try again.
+Guess again:
+14
+Congratulations. You guessed the number!
+
+---------------------------------------------------------------------
+----------     ENTER P TO PLAY AGAIN OR X TO EXIT          ----------
+---------------------------------------------------------------------
+p
+---------------------------------------------------------------------
+         A number has been generated. Make a guess!
+---------------------------------------------------------------------
+500
+Too high. Try again.
+Guess again:
+250
+Too low. Try again.
+Guess again:
+150
+Too low. Try again.
+Guess again:
+300
+Too low. Try again.
+Guess again:
+350
+Too low. Try again.
+Guess again:
+400
+Too low. Try again.
+Guess again:
+450
+Too low. Try again.
+Guess again:
+475
+Too high. Try again.
+Guess again:
+470
+Congratulations. You guessed the number!
+
+---------------------------------------------------------------------
+----------     ENTER P TO PLAY AGAIN OR X TO EXIT          ----------
+---------------------------------------------------------------------
+p
+---------------------------------------------------------------------
+         A number has been generated. Make a guess!
+---------------------------------------------------------------------
+500
+Too high. Try again.
+Guess again:
+250
+Too high. Try again.
+Guess again:
+100
+Too low. Try again.
+Guess again:
+175
+Too low. Try again.
+Guess again:
+200
+Too low. Try again.
+Guess again:
+225
+Too high. Try again.
+Guess again:
+220
+Too high. Try again.
+Guess again:
+215
+Congratulations. You guessed the number!
+
+---------------------------------------------------------------------
+----------     ENTER P TO PLAY AGAIN OR X TO EXIT          ----------
+---------------------------------------------------------------------
+x
+PS C:\Users\Scand\source\repos\Cs2Apps>

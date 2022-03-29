@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9aca68b8-888f-41f8-9a0d-fec1ff697e3c": {
+      "ProjectGuid": "9aca68b8-888f-41f8-9a0d-fec1ff697e3c",
+      "DisplayName": "MathCalc",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

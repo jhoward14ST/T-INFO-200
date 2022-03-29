@@ -1,0 +1,101 @@
+**********************************************************************
+** Visual Studio 2022 Developer PowerShell v17.0.6
+** Copyright (c) 2021 Microsoft Corporation
+**********************************************************************
+PS C:\Users\Scand\source\repos\Cs2Apps> .\AITeacher\bin\debug\AITeacher.exe
+---------------------------------------------------------------------
+ Welcome to the AI Teacher app. This program will ask you to solve
+  multiplication problems to help you learn! If you get it right,
+ you will be asked another problem. If you get it wrong, you get to
+ try again for the right answer.The more questions you get right
+                 the more points you earn.
+      Reaching 10 and 100 points earns you a banner!
+---------------------------------------------------------------------
+                How much is 6 times 2 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+12
+Very good!
+You now have 1 points!
+---------------------------------------------------------------------
+                How much is 9 times 9 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+81
+Very good!
+You now have 2 points!
+---------------------------------------------------------------------
+                How much is 8 times 5 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+40
+Very good!
+You now have 3 points!
+---------------------------------------------------------------------
+                How much is 7 times 5 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+35
+Very good!
+You now have 4 points!
+---------------------------------------------------------------------
+                How much is 1 times 7 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+7
+Very good!
+You now have 5 points!
+---------------------------------------------------------------------
+                How much is 5 times 3 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+15
+Very good!
+You now have 6 points!
+---------------------------------------------------------------------
+                How much is 2 times 6 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+12
+Very good!
+You now have 7 points!
+---------------------------------------------------------------------
+                How much is 8 times 4 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+32
+Very good!
+You now have 8 points!
+---------------------------------------------------------------------
+                How much is 1 times 4 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+4
+Very good!
+You now have 9 points!
+---------------------------------------------------------------------
+                How much is 9 times 2 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+18
+Very good!
+You now have 10 points!
+            *****          ********
+           *** ***        ***    ***
+          ***  ****      ****    ****
+         ***   ****      ****    ****
+               ****      ****    ****
+               ****      ****    ****
+               ****      ****    ****
+               ****      ****    ****
+               ****      ****    ****
+               ****      ****    ****
+               ****      ****    ****
+           ************   ***    ***
+           ************    ********
+---------------------------------------------------------------------
+                How much is 3 times 3 ?
+                             PRESS X TO EXIT
+---------------------------------------------------------------------
+x
+PS C:\Users\Scand\source\repos\Cs2Apps>
